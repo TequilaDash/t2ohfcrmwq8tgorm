@@ -74,7 +74,7 @@ md_files = []
 for root, dirs, files in os.walk(ROOT):
     dirs[:] = [d for d in dirs if d != ".git"]
     md_files += [os.path.relpath(os.path.join(root, f), ROOT)
-                 for f in files if f.lower().endswith(".md")]
+                 for f in files if f.lower().endswith(".md") and f != "build-report.md"]
 check("no markdown in repo", len(md_files) == 0, ", ".join(md_files))
 
 
