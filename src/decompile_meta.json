@@ -1,0 +1,2559 @@
+{
+  "total_funcs": 508,
+  "decompiled": 508,
+  "failed": 0,
+  "elapsed_sec": 10.3,
+  "classes": {
+    "LCSingleTaskAppInfo": 18,
+    "LCSingleTaskBeadView": 15,
+    "LCSingleTaskDrawerView": 16,
+    "LCSingleTaskHandoffView": 6,
+    "LCSingleTaskOverlayController": 31,
+    "LCSingleTaskOverlayWindow": 5,
+    "LCSingleTaskSwitcher": 25,
+    "_global_blocks_and_stubs": 392
+  },
+  "functions": [
+    {
+      "ea": "0x4000",
+      "name": "-[LCSingleTaskAppInfo initWithName:folderName:bundleId:version:dataUUID:appPath:icon:isJITEnabled:]",
+      "size": 452
+    },
+    {
+      "ea": "0x41c4",
+      "name": "-[LCSingleTaskAppInfo name]",
+      "size": 8
+    },
+    {
+      "ea": "0x41cc",
+      "name": "-[LCSingleTaskAppInfo setName:]",
+      "size": 8
+    },
+    {
+      "ea": "0x41d4",
+      "name": "-[LCSingleTaskAppInfo folderName]",
+      "size": 8
+    },
+    {
+      "ea": "0x41dc",
+      "name": "-[LCSingleTaskAppInfo setFolderName:]",
+      "size": 8
+    },
+    {
+      "ea": "0x41e4",
+      "name": "-[LCSingleTaskAppInfo bundleId]",
+      "size": 8
+    },
+    {
+      "ea": "0x41ec",
+      "name": "-[LCSingleTaskAppInfo setBundleId:]",
+      "size": 8
+    },
+    {
+      "ea": "0x41f4",
+      "name": "-[LCSingleTaskAppInfo version]",
+      "size": 8
+    },
+    {
+      "ea": "0x41fc",
+      "name": "-[LCSingleTaskAppInfo setVersion:]",
+      "size": 8
+    },
+    {
+      "ea": "0x4204",
+      "name": "-[LCSingleTaskAppInfo dataUUID]",
+      "size": 8
+    },
+    {
+      "ea": "0x420c",
+      "name": "-[LCSingleTaskAppInfo setDataUUID:]",
+      "size": 8
+    },
+    {
+      "ea": "0x4214",
+      "name": "-[LCSingleTaskAppInfo appPath]",
+      "size": 8
+    },
+    {
+      "ea": "0x421c",
+      "name": "-[LCSingleTaskAppInfo setAppPath:]",
+      "size": 8
+    },
+    {
+      "ea": "0x4224",
+      "name": "-[LCSingleTaskAppInfo icon]",
+      "size": 8
+    },
+    {
+      "ea": "0x422c",
+      "name": "-[LCSingleTaskAppInfo setIcon:]",
+      "size": 12
+    },
+    {
+      "ea": "0x4238",
+      "name": "-[LCSingleTaskAppInfo isJITEnabled]",
+      "size": 8
+    },
+    {
+      "ea": "0x4240",
+      "name": "-[LCSingleTaskAppInfo setIsJITEnabled:]",
+      "size": 8
+    },
+    {
+      "ea": "0x4248",
+      "name": "-[LCSingleTaskAppInfo .cxx_destruct]",
+      "size": 108
+    },
+    {
+      "ea": "0x42b4",
+      "name": "-[LCSingleTaskBeadView initWithFrame:]",
+      "size": 76
+    },
+    {
+      "ea": "0x4300",
+      "name": "-[LCSingleTaskBeadView setupUI]",
+      "size": 1256
+    },
+    {
+      "ea": "0x47e8",
+      "name": "-[LCSingleTaskBeadView pointInside:withEvent:]",
+      "size": 56
+    },
+    {
+      "ea": "0x4820",
+      "name": "-[LCSingleTaskBeadView handleTap]",
+      "size": 152
+    },
+    {
+      "ea": "0x48b8",
+      "name": "-[LCSingleTaskBeadView handlePan:]",
+      "size": 552
+    },
+    {
+      "ea": "0x4ae0",
+      "name": "sub_4AE0",
+      "size": 96
+    },
+    {
+      "ea": "0x4b40",
+      "name": "sub_4B40",
+      "size": 8
+    },
+    {
+      "ea": "0x4b48",
+      "name": "sub_4B48",
+      "size": 8
+    },
+    {
+      "ea": "0x4b50",
+      "name": "sub_4B50",
+      "size": 60
+    },
+    {
+      "ea": "0x4b8c",
+      "name": "-[LCSingleTaskBeadView resetVisualState]",
+      "size": 80
+    },
+    {
+      "ea": "0x4bdc",
+      "name": "-[LCSingleTaskBeadView onTap]",
+      "size": 16
+    },
+    {
+      "ea": "0x4bec",
+      "name": "-[LCSingleTaskBeadView setOnTap:]",
+      "size": 12
+    },
+    {
+      "ea": "0x4bf8",
+      "name": "-[LCSingleTaskBeadView onPanMoved]",
+      "size": 16
+    },
+    {
+      "ea": "0x4c08",
+      "name": "-[LCSingleTaskBeadView setOnPanMoved:]",
+      "size": 12
+    },
+    {
+      "ea": "0x4c14",
+      "name": "-[LCSingleTaskBeadView onPanEnded]",
+      "size": 16
+    },
+    {
+      "ea": "0x4c24",
+      "name": "-[LCSingleTaskBeadView setOnPanEnded:]",
+      "size": 12
+    },
+    {
+      "ea": "0x4c30",
+      "name": "-[LCSingleTaskBeadView onUserInteraction]",
+      "size": 16
+    },
+    {
+      "ea": "0x4c40",
+      "name": "-[LCSingleTaskBeadView setOnUserInteraction:]",
+      "size": 12
+    },
+    {
+      "ea": "0x4c4c",
+      "name": "-[LCSingleTaskBeadView .cxx_destruct]",
+      "size": 164
+    },
+    {
+      "ea": "0x4cf0",
+      "name": "-[LCSingleTaskHandoffView initWithFrame:]",
+      "size": 76
+    },
+    {
+      "ea": "0x4d3c",
+      "name": "-[LCSingleTaskHandoffView setupUI]",
+      "size": 2808
+    },
+    {
+      "ea": "0x5834",
+      "name": "-[LCSingleTaskHandoffView configureWithAppName:icon:status:]",
+      "size": 220
+    },
+    {
+      "ea": "0x5910",
+      "name": "-[LCSingleTaskHandoffView updateStatus:]",
+      "size": 204
+    },
+    {
+      "ea": "0x59dc",
+      "name": "sub_59DC",
+      "size": 8
+    },
+    {
+      "ea": "0x59e4",
+      "name": "sub_59E4",
+      "size": 40
+    },
+    {
+      "ea": "0x5a0c",
+      "name": "sub_5A0C",
+      "size": 40
+    },
+    {
+      "ea": "0x5a34",
+      "name": "-[LCSingleTaskHandoffView showWithCompletion:]",
+      "size": 280
+    },
+    {
+      "ea": "0x5b4c",
+      "name": "sub_5B4C",
+      "size": 84
+    },
+    {
+      "ea": "0x5ba0",
+      "name": "sub_5BA0",
+      "size": 20
+    },
+    {
+      "ea": "0x5bb4",
+      "name": "sub_5BB4",
+      "size": 16
+    },
+    {
+      "ea": "0x5bc4",
+      "name": "-[LCSingleTaskHandoffView .cxx_destruct]",
+      "size": 164
+    },
+    {
+      "ea": "0x5c68",
+      "name": "-[LCSingleTaskDrawerView initWithFrame:]",
+      "size": 76
+    },
+    {
+      "ea": "0x5cb4",
+      "name": "-[LCSingleTaskDrawerView setupUI]",
+      "size": 4116
+    },
+    {
+      "ea": "0x6cc8",
+      "name": "-[LCSingleTaskDrawerView setupReturnHomeCard]",
+      "size": 1956
+    },
+    {
+      "ea": "0x746c",
+      "name": "-[LCSingleTaskDrawerView handleClose]",
+      "size": 152
+    },
+    {
+      "ea": "0x7504",
+      "name": "-[LCSingleTaskDrawerView handleReturnHome]",
+      "size": 152
+    },
+    {
+      "ea": "0x759c",
+      "name": "-[LCSingleTaskDrawerView reloadWithApps:runningFolder:]",
+      "size": 640
+    },
+    {
+      "ea": "0x781c",
+      "name": "-[LCSingleTaskDrawerView createAppRowWithApp:isRunning:]",
+      "size": 3212
+    },
+    {
+      "ea": "0x84a8",
+      "name": "sub_84A8",
+      "size": 32
+    },
+    {
+      "ea": "0x84c8",
+      "name": "j___Unwind_Resume",
+      "size": 4
+    },
+    {
+      "ea": "0x84cc",
+      "name": "sub_84CC",
+      "size": 220
+    },
+    {
+      "ea": "0x85a8",
+      "name": "sub_85A8",
+      "size": 48
+    },
+    {
+      "ea": "0x85d8",
+      "name": "sub_85D8",
+      "size": 40
+    },
+    {
+      "ea": "0x8600",
+      "name": "-[LCSingleTaskDrawerView onSelectApp]",
+      "size": 16
+    },
+    {
+      "ea": "0x8610",
+      "name": "-[LCSingleTaskDrawerView setOnSelectApp:]",
+      "size": 12
+    },
+    {
+      "ea": "0x861c",
+      "name": "-[LCSingleTaskDrawerView onReturnHome]",
+      "size": 16
+    },
+    {
+      "ea": "0x862c",
+      "name": "-[LCSingleTaskDrawerView setOnReturnHome:]",
+      "size": 12
+    },
+    {
+      "ea": "0x8638",
+      "name": "-[LCSingleTaskDrawerView onClose]",
+      "size": 16
+    },
+    {
+      "ea": "0x8648",
+      "name": "-[LCSingleTaskDrawerView setOnClose:]",
+      "size": 12
+    },
+    {
+      "ea": "0x8654",
+      "name": "-[LCSingleTaskDrawerView onUserInteraction]",
+      "size": 16
+    },
+    {
+      "ea": "0x8664",
+      "name": "-[LCSingleTaskDrawerView setOnUserInteraction:]",
+      "size": 12
+    },
+    {
+      "ea": "0x8670",
+      "name": "-[LCSingleTaskDrawerView .cxx_destruct]",
+      "size": 284
+    },
+    {
+      "ea": "0x878c",
+      "name": "-[LCSingleTaskOverlayWindow initWithWindowScene:]",
+      "size": 84
+    },
+    {
+      "ea": "0x87e0",
+      "name": "-[LCSingleTaskOverlayWindow hitTest:withEvent:]",
+      "size": 148
+    },
+    {
+      "ea": "0x8874",
+      "name": "-[LCSingleTaskOverlayWindow overlayController]",
+      "size": 32
+    },
+    {
+      "ea": "0x8894",
+      "name": "-[LCSingleTaskOverlayWindow setOverlayController:]",
+      "size": 20
+    },
+    {
+      "ea": "0x88a8",
+      "name": "-[LCSingleTaskOverlayWindow .cxx_destruct]",
+      "size": 16
+    },
+    {
+      "ea": "0x88b8",
+      "name": "-[LCSingleTaskOverlayController viewDidLoad]",
+      "size": 208
+    },
+    {
+      "ea": "0x8988",
+      "name": "-[LCSingleTaskOverlayController viewDidLayoutSubviews]",
+      "size": 104
+    },
+    {
+      "ea": "0x89f0",
+      "name": "-[LCSingleTaskOverlayController shouldAutorotate]",
+      "size": 8
+    },
+    {
+      "ea": "0x89f8",
+      "name": "-[LCSingleTaskOverlayController supportedInterfaceOrientations]",
+      "size": 8
+    },
+    {
+      "ea": "0x8a00",
+      "name": "-[LCSingleTaskOverlayController viewWillTransitionToSize:withTransitionCoordinator:]",
+      "size": 212
+    },
+    {
+      "ea": "0x8ad4",
+      "name": "sub_8AD4",
+      "size": 28
+    },
+    {
+      "ea": "0x8af0",
+      "name": "sub_8AF0",
+      "size": 60
+    },
+    {
+      "ea": "0x8b2c",
+      "name": "sub_8B2C",
+      "size": 12
+    },
+    {
+      "ea": "0x8b38",
+      "name": "sub_8B38",
+      "size": 8
+    },
+    {
+      "ea": "0x8b40",
+      "name": "-[LCSingleTaskOverlayController resolveHitTestAtPoint:inWindow:withEvent:]",
+      "size": 676
+    },
+    {
+      "ea": "0x8de4",
+      "name": "-[LCSingleTaskOverlayController setupComponents]",
+      "size": 1592
+    },
+    {
+      "ea": "0x941c",
+      "name": "sub_941C",
+      "size": 212
+    },
+    {
+      "ea": "0x94f0",
+      "name": "sub_94F0",
+      "size": 52
+    },
+    {
+      "ea": "0x9524",
+      "name": "sub_9524",
+      "size": 64
+    },
+    {
+      "ea": "0x9564",
+      "name": "sub_9564",
+      "size": 72
+    },
+    {
+      "ea": "0x95ac",
+      "name": "sub_95AC",
+      "size": 44
+    },
+    {
+      "ea": "0x95d8",
+      "name": "sub_95D8",
+      "size": 116
+    },
+    {
+      "ea": "0x964c",
+      "name": "sub_964C",
+      "size": 44
+    },
+    {
+      "ea": "0x9678",
+      "name": "sub_9678",
+      "size": 68
+    },
+    {
+      "ea": "0x96bc",
+      "name": "sub_96BC",
+      "size": 44
+    },
+    {
+      "ea": "0x96e8",
+      "name": "-[LCSingleTaskOverlayController loadSavedBeadPosition]",
+      "size": 176
+    },
+    {
+      "ea": "0x9798",
+      "name": "-[LCSingleTaskOverlayController saveBeadPosition]",
+      "size": 120
+    },
+    {
+      "ea": "0x9810",
+      "name": "-[LCSingleTaskOverlayController updateLayoutForCanvasSize:]",
+      "size": 452
+    },
+    {
+      "ea": "0x99d4",
+      "name": "-[LCSingleTaskOverlayController handleBeadPanEnded:]",
+      "size": 540
+    },
+    {
+      "ea": "0x9bf0",
+      "name": "sub_9BF0",
+      "size": 36
+    },
+    {
+      "ea": "0x9c14",
+      "name": "sub_9C14",
+      "size": 108
+    },
+    {
+      "ea": "0x9c80",
+      "name": "sub_9C80",
+      "size": 44
+    },
+    {
+      "ea": "0x9cac",
+      "name": "-[LCSingleTaskOverlayController handleMaskTap]",
+      "size": 12
+    },
+    {
+      "ea": "0x9cb8",
+      "name": "-[LCSingleTaskOverlayController setDrawerOpen:animated:]",
+      "size": 612
+    },
+    {
+      "ea": "0x9f1c",
+      "name": "sub_9F1C",
+      "size": 36
+    },
+    {
+      "ea": "0x9f40",
+      "name": "sub_9F40",
+      "size": 240
+    },
+    {
+      "ea": "0xa030",
+      "name": "sub_A030",
+      "size": 56
+    },
+    {
+      "ea": "0xa068",
+      "name": "-[LCSingleTaskOverlayController refreshAppList]",
+      "size": 112
+    },
+    {
+      "ea": "0xa0d8",
+      "name": "-[LCSingleTaskOverlayController handleAppSelected:]",
+      "size": 216
+    },
+    {
+      "ea": "0xa1b0",
+      "name": "-[LCSingleTaskOverlayController resetInactivityTimer]",
+      "size": 284
+    },
+    {
+      "ea": "0xa2cc",
+      "name": "sub_A2CC",
+      "size": 28
+    },
+    {
+      "ea": "0xa2e8",
+      "name": "sub_A2E8",
+      "size": 52
+    },
+    {
+      "ea": "0xa31c",
+      "name": "sub_A31C",
+      "size": 212
+    },
+    {
+      "ea": "0xa3f0",
+      "name": "sub_A3F0",
+      "size": 20
+    },
+    {
+      "ea": "0xa404",
+      "name": "sub_A404",
+      "size": 76
+    },
+    {
+      "ea": "0xa450",
+      "name": "-[LCSingleTaskOverlayController beadView]",
+      "size": 16
+    },
+    {
+      "ea": "0xa460",
+      "name": "-[LCSingleTaskOverlayController setBeadView:]",
+      "size": 20
+    },
+    {
+      "ea": "0xa474",
+      "name": "-[LCSingleTaskOverlayController drawerView]",
+      "size": 16
+    },
+    {
+      "ea": "0xa484",
+      "name": "-[LCSingleTaskOverlayController setDrawerView:]",
+      "size": 20
+    },
+    {
+      "ea": "0xa498",
+      "name": "-[LCSingleTaskOverlayController dimmingMaskView]",
+      "size": 16
+    },
+    {
+      "ea": "0xa4a8",
+      "name": "-[LCSingleTaskOverlayController setDimmingMaskView:]",
+      "size": 20
+    },
+    {
+      "ea": "0xa4bc",
+      "name": "-[LCSingleTaskOverlayController transitionOverlayView]",
+      "size": 16
+    },
+    {
+      "ea": "0xa4cc",
+      "name": "-[LCSingleTaskOverlayController setTransitionOverlayView:]",
+      "size": 20
+    },
+    {
+      "ea": "0xa4e0",
+      "name": "-[LCSingleTaskOverlayController isDrawerOpen]",
+      "size": 16
+    },
+    {
+      "ea": "0xa4f0",
+      "name": "-[LCSingleTaskOverlayController setIsDrawerOpen:]",
+      "size": 16
+    },
+    {
+      "ea": "0xa500",
+      "name": "-[LCSingleTaskOverlayController isBeadPinnedRight]",
+      "size": 16
+    },
+    {
+      "ea": "0xa510",
+      "name": "-[LCSingleTaskOverlayController setIsBeadPinnedRight:]",
+      "size": 16
+    },
+    {
+      "ea": "0xa520",
+      "name": "-[LCSingleTaskOverlayController beadCenterYRatio]",
+      "size": 16
+    },
+    {
+      "ea": "0xa530",
+      "name": "-[LCSingleTaskOverlayController setBeadCenterYRatio:]",
+      "size": 16
+    },
+    {
+      "ea": "0xa540",
+      "name": "-[LCSingleTaskOverlayController .cxx_destruct]",
+      "size": 124
+    },
+    {
+      "ea": "0xa5bc",
+      "name": "+[LCSingleTaskSwitcher sharedManager]",
+      "size": 56
+    },
+    {
+      "ea": "0xa5f4",
+      "name": "sub_A5F4",
+      "size": 40
+    },
+    {
+      "ea": "0xa61c",
+      "name": "+[LCSingleTaskSwitcher setupIfNeeded]",
+      "size": 256
+    },
+    {
+      "ea": "0xa71c",
+      "name": "sub_A71C",
+      "size": 48
+    },
+    {
+      "ea": "0xa74c",
+      "name": "-[LCSingleTaskSwitcher performSetup]",
+      "size": 776
+    },
+    {
+      "ea": "0xaa54",
+      "name": "sub_AA54",
+      "size": 44
+    },
+    {
+      "ea": "0xaa80",
+      "name": "-[LCSingleTaskSwitcher ensureWindowAttached]",
+      "size": 436
+    },
+    {
+      "ea": "0xac34",
+      "name": "+[LCSingleTaskSwitcher scanInstalledApps]",
+      "size": 1240
+    },
+    {
+      "ea": "0xb10c",
+      "name": "sub_B10C",
+      "size": 108
+    },
+    {
+      "ea": "0xb178",
+      "name": "+[LCSingleTaskSwitcher extractAppIconFromAppPath:plist:]",
+      "size": 976
+    },
+    {
+      "ea": "0xb548",
+      "name": "+[LCSingleTaskSwitcher presentTransitionAndSwitchToApp:completion:]",
+      "size": 436
+    },
+    {
+      "ea": "0xb6fc",
+      "name": "sub_B6FC",
+      "size": 184
+    },
+    {
+      "ea": "0xb7b4",
+      "name": "sub_B7B4",
+      "size": 1248
+    },
+    {
+      "ea": "0xbc94",
+      "name": "sub_BC94",
+      "size": 268
+    },
+    {
+      "ea": "0xbda0",
+      "name": "sub_BDA0",
+      "size": 16
+    },
+    {
+      "ea": "0xbdb0",
+      "name": "sub_BDB0",
+      "size": 76
+    },
+    {
+      "ea": "0xbdfc",
+      "name": "sub_BDFC",
+      "size": 64
+    },
+    {
+      "ea": "0xbe3c",
+      "name": "sub_BE3C",
+      "size": 60
+    },
+    {
+      "ea": "0xbe78",
+      "name": "sub_BE78",
+      "size": 48
+    },
+    {
+      "ea": "0xbea8",
+      "name": "+[LCSingleTaskSwitcher presentTransitionAndReturnHomeWithCompletion:]",
+      "size": 336
+    },
+    {
+      "ea": "0xbff8",
+      "name": "sub_BFF8",
+      "size": 164
+    },
+    {
+      "ea": "0xc09c",
+      "name": "sub_C09C",
+      "size": 148
+    },
+    {
+      "ea": "0xc130",
+      "name": "sub_C130",
+      "size": 156
+    },
+    {
+      "ea": "0xc1cc",
+      "name": "sub_C1CC",
+      "size": 8
+    },
+    {
+      "ea": "0xc1d4",
+      "name": "sub_C1D4",
+      "size": 52
+    },
+    {
+      "ea": "0xc208",
+      "name": "+[LCSingleTaskSwitcher syncLaunchSelectionToHost:dataUUID:requestID:isJIT:]",
+      "size": 1704
+    },
+    {
+      "ea": "0xc8b0",
+      "name": "+[LCSingleTaskSwitcher clearLaunchSelectionFromHost]",
+      "size": 1120
+    },
+    {
+      "ea": "0xcd10",
+      "name": "+[LCSingleTaskSwitcher dispatchSwitchToApp:dataUUID:]",
+      "size": 2044
+    },
+    {
+      "ea": "0xd50c",
+      "name": "sub_D50C",
+      "size": 120
+    },
+    {
+      "ea": "0xd584",
+      "name": "sub_D584",
+      "size": 148
+    },
+    {
+      "ea": "0xd618",
+      "name": "sub_D618",
+      "size": 12
+    },
+    {
+      "ea": "0xd624",
+      "name": "sub_D624",
+      "size": 140
+    },
+    {
+      "ea": "0xd6b0",
+      "name": "sub_D6B0",
+      "size": 12
+    },
+    {
+      "ea": "0xd6bc",
+      "name": "sub_D6BC",
+      "size": 12
+    },
+    {
+      "ea": "0xd6c8",
+      "name": "+[LCSingleTaskSwitcher dispatchReturnHome]",
+      "size": 740
+    },
+    {
+      "ea": "0xd9ac",
+      "name": "sub_D9AC",
+      "size": 120
+    },
+    {
+      "ea": "0xda24",
+      "name": "sub_DA24",
+      "size": 148
+    },
+    {
+      "ea": "0xdab8",
+      "name": "sub_DAB8",
+      "size": 12
+    },
+    {
+      "ea": "0xdac4",
+      "name": "sub_DAC4",
+      "size": 12
+    },
+    {
+      "ea": "0xdad0",
+      "name": "+[LCSingleTaskSwitcher fallbackSwitchToFolder:dataUUID:isJIT:completion:]",
+      "size": 200
+    },
+    {
+      "ea": "0xdb98",
+      "name": "+[LCSingleTaskSwitcher fallbackReturnHomeWithCompletion:]",
+      "size": 88
+    },
+    {
+      "ea": "0xdbf0",
+      "name": "+[LCSingleTaskSwitcher realHostDocumentsDirectory]",
+      "size": 640
+    },
+    {
+      "ea": "0xde70",
+      "name": "+[LCSingleTaskSwitcher currentGuestFolderName]",
+      "size": 564
+    },
+    {
+      "ea": "0xe0a4",
+      "name": "+[LCSingleTaskSwitcher hostBundleIdentifier]",
+      "size": 296
+    },
+    {
+      "ea": "0xe1cc",
+      "name": "+[LCSingleTaskSwitcher isContainerGuestRunning]",
+      "size": 420
+    },
+    {
+      "ea": "0xe370",
+      "name": "-[LCSingleTaskSwitcher overlayWindow]",
+      "size": 8
+    },
+    {
+      "ea": "0xe378",
+      "name": "-[LCSingleTaskSwitcher setOverlayWindow:]",
+      "size": 12
+    },
+    {
+      "ea": "0xe384",
+      "name": "-[LCSingleTaskSwitcher overlayController]",
+      "size": 8
+    },
+    {
+      "ea": "0xe38c",
+      "name": "-[LCSingleTaskSwitcher setOverlayController:]",
+      "size": 12
+    },
+    {
+      "ea": "0xe398",
+      "name": "-[LCSingleTaskSwitcher isSetup]",
+      "size": 8
+    },
+    {
+      "ea": "0xe3a0",
+      "name": "-[LCSingleTaskSwitcher setIsSetup:]",
+      "size": 8
+    },
+    {
+      "ea": "0xe3a8",
+      "name": "-[LCSingleTaskSwitcher .cxx_destruct]",
+      "size": 48
+    },
+    {
+      "ea": "0xe3d8",
+      "name": "sub_E3D8",
+      "size": 284
+    },
+    {
+      "ea": "0xe4f4",
+      "name": "sub_E4F4",
+      "size": 12
+    },
+    {
+      "ea": "0xe500",
+      "name": "sub_E500",
+      "size": 12
+    },
+    {
+      "ea": "0xe50c",
+      "name": "sub_E50C",
+      "size": 12
+    },
+    {
+      "ea": "0xe518",
+      "name": "sub_E518",
+      "size": 20
+    },
+    {
+      "ea": "0xe52c",
+      "name": "_CGAffineTransformMakeScale",
+      "size": 12
+    },
+    {
+      "ea": "0xe538",
+      "name": "_CGRectContainsPoint",
+      "size": 12
+    },
+    {
+      "ea": "0xe544",
+      "name": "_CGRectInset",
+      "size": 12
+    },
+    {
+      "ea": "0xe550",
+      "name": "_NSClassFromString",
+      "size": 12
+    },
+    {
+      "ea": "0xe55c",
+      "name": "_NSLog",
+      "size": 12
+    },
+    {
+      "ea": "0xe568",
+      "name": "_NSSearchPathForDirectoriesInDomains",
+      "size": 12
+    },
+    {
+      "ea": "0xe574",
+      "name": "_NSSelectorFromString",
+      "size": 12
+    },
+    {
+      "ea": "0xe580",
+      "name": "__Block_object_assign",
+      "size": 12
+    },
+    {
+      "ea": "0xe58c",
+      "name": "__Unwind_Resume",
+      "size": 12
+    },
+    {
+      "ea": "0xe598",
+      "name": "___stack_chk_fail",
+      "size": 12
+    },
+    {
+      "ea": "0xe5a4",
+      "name": "_dispatch_after",
+      "size": 12
+    },
+    {
+      "ea": "0xe5b0",
+      "name": "_dispatch_async",
+      "size": 12
+    },
+    {
+      "ea": "0xe5bc",
+      "name": "_dispatch_get_global_queue",
+      "size": 12
+    },
+    {
+      "ea": "0xe5c8",
+      "name": "_dispatch_once",
+      "size": 12
+    },
+    {
+      "ea": "0xe5d4",
+      "name": "_dispatch_time",
+      "size": 12
+    },
+    {
+      "ea": "0xe5e0",
+      "name": "_getenv",
+      "size": 12
+    },
+    {
+      "ea": "0xe5ec",
+      "name": "_getpid",
+      "size": 12
+    },
+    {
+      "ea": "0xe5f8",
+      "name": "_kill",
+      "size": 12
+    },
+    {
+      "ea": "0xe604",
+      "name": "_objc_alloc",
+      "size": 12
+    },
+    {
+      "ea": "0xe610",
+      "name": "_objc_alloc_init",
+      "size": 12
+    },
+    {
+      "ea": "0xe61c",
+      "name": "_objc_autoreleasePoolPop",
+      "size": 12
+    },
+    {
+      "ea": "0xe628",
+      "name": "_objc_autoreleasePoolPush",
+      "size": 12
+    },
+    {
+      "ea": "0xe634",
+      "name": "_objc_autoreleaseReturnValue",
+      "size": 12
+    },
+    {
+      "ea": "0xe640",
+      "name": "_objc_claimAutoreleasedReturnValue",
+      "size": 12
+    },
+    {
+      "ea": "0xe64c",
+      "name": "_objc_copyWeak",
+      "size": 12
+    },
+    {
+      "ea": "0xe658",
+      "name": "_objc_destroyWeak",
+      "size": 12
+    },
+    {
+      "ea": "0xe664",
+      "name": "_objc_enumerationMutation",
+      "size": 12
+    },
+    {
+      "ea": "0xe670",
+      "name": "_objc_initWeak",
+      "size": 12
+    },
+    {
+      "ea": "0xe67c",
+      "name": "_objc_loadWeakRetained",
+      "size": 12
+    },
+    {
+      "ea": "0xe688",
+      "name": "_objc_lookUpClass",
+      "size": 12
+    },
+    {
+      "ea": "0xe694",
+      "name": "_objc_msgSendSuper2",
+      "size": 12
+    },
+    {
+      "ea": "0xe6a0",
+      "name": "_objc_opt_class",
+      "size": 12
+    },
+    {
+      "ea": "0xe6ac",
+      "name": "_objc_opt_isKindOfClass",
+      "size": 12
+    },
+    {
+      "ea": "0xe6b8",
+      "name": "_objc_opt_respondsToSelector",
+      "size": 12
+    },
+    {
+      "ea": "0xe6c4",
+      "name": "_objc_release",
+      "size": 12
+    },
+    {
+      "ea": "0xe6d0",
+      "name": "_objc_release_x1",
+      "size": 12
+    },
+    {
+      "ea": "0xe6dc",
+      "name": "_objc_release_x19",
+      "size": 12
+    },
+    {
+      "ea": "0xe6e8",
+      "name": "_objc_release_x20",
+      "size": 12
+    },
+    {
+      "ea": "0xe6f4",
+      "name": "_objc_release_x21",
+      "size": 12
+    },
+    {
+      "ea": "0xe700",
+      "name": "_objc_release_x22",
+      "size": 12
+    },
+    {
+      "ea": "0xe70c",
+      "name": "_objc_release_x23",
+      "size": 12
+    },
+    {
+      "ea": "0xe718",
+      "name": "_objc_release_x24",
+      "size": 12
+    },
+    {
+      "ea": "0xe724",
+      "name": "_objc_release_x25",
+      "size": 12
+    },
+    {
+      "ea": "0xe730",
+      "name": "_objc_release_x26",
+      "size": 12
+    },
+    {
+      "ea": "0xe73c",
+      "name": "_objc_release_x27",
+      "size": 12
+    },
+    {
+      "ea": "0xe748",
+      "name": "_objc_release_x28",
+      "size": 12
+    },
+    {
+      "ea": "0xe754",
+      "name": "_objc_release_x8",
+      "size": 12
+    },
+    {
+      "ea": "0xe760",
+      "name": "_objc_retain",
+      "size": 12
+    },
+    {
+      "ea": "0xe76c",
+      "name": "_objc_retainAutorelease",
+      "size": 12
+    },
+    {
+      "ea": "0xe778",
+      "name": "_objc_retainAutoreleaseReturnValue",
+      "size": 12
+    },
+    {
+      "ea": "0xe784",
+      "name": "_objc_retainAutoreleasedReturnValue",
+      "size": 12
+    },
+    {
+      "ea": "0xe790",
+      "name": "_objc_retainBlock",
+      "size": 12
+    },
+    {
+      "ea": "0xe79c",
+      "name": "_objc_retain_x1",
+      "size": 12
+    },
+    {
+      "ea": "0xe7a8",
+      "name": "_objc_retain_x19",
+      "size": 12
+    },
+    {
+      "ea": "0xe7b4",
+      "name": "_objc_retain_x2",
+      "size": 12
+    },
+    {
+      "ea": "0xe7c0",
+      "name": "_objc_retain_x20",
+      "size": 12
+    },
+    {
+      "ea": "0xe7cc",
+      "name": "_objc_retain_x21",
+      "size": 12
+    },
+    {
+      "ea": "0xe7d8",
+      "name": "_objc_retain_x22",
+      "size": 12
+    },
+    {
+      "ea": "0xe7e4",
+      "name": "_objc_retain_x23",
+      "size": 12
+    },
+    {
+      "ea": "0xe7f0",
+      "name": "_objc_retain_x24",
+      "size": 12
+    },
+    {
+      "ea": "0xe7fc",
+      "name": "_objc_retain_x25",
+      "size": 12
+    },
+    {
+      "ea": "0xe808",
+      "name": "_objc_retain_x27",
+      "size": 12
+    },
+    {
+      "ea": "0xe814",
+      "name": "_objc_retain_x28",
+      "size": 12
+    },
+    {
+      "ea": "0xe820",
+      "name": "_objc_retain_x3",
+      "size": 12
+    },
+    {
+      "ea": "0xe82c",
+      "name": "_objc_retain_x8",
+      "size": 12
+    },
+    {
+      "ea": "0xe838",
+      "name": "_objc_setProperty_nonatomic_copy",
+      "size": 12
+    },
+    {
+      "ea": "0xe844",
+      "name": "_objc_storeStrong",
+      "size": 12
+    },
+    {
+      "ea": "0xe850",
+      "name": "_objc_storeWeak",
+      "size": 12
+    },
+    {
+      "ea": "0xe85c",
+      "name": "_objc_unsafeClaimAutoreleasedReturnValue",
+      "size": 12
+    },
+    {
+      "ea": "0xe868",
+      "name": "_stat",
+      "size": 12
+    },
+    {
+      "ea": "0xe880",
+      "name": "_objc_msgSend$CGColor",
+      "size": 20
+    },
+    {
+      "ea": "0xe8a0",
+      "name": "_objc_msgSend$URLQueryAllowedCharacterSet",
+      "size": 20
+    },
+    {
+      "ea": "0xe8c0",
+      "name": "_objc_msgSend$URLWithString:",
+      "size": 20
+    },
+    {
+      "ea": "0xe8e0",
+      "name": "_objc_msgSend$UUID",
+      "size": 20
+    },
+    {
+      "ea": "0xe900",
+      "name": "_objc_msgSend$UUIDString",
+      "size": 20
+    },
+    {
+      "ea": "0xe920",
+      "name": "_objc_msgSend$absoluteString",
+      "size": 20
+    },
+    {
+      "ea": "0xe940",
+      "name": "_objc_msgSend$actionWithHandler:",
+      "size": 20
+    },
+    {
+      "ea": "0xe960",
+      "name": "_objc_msgSend$activateConstraints:",
+      "size": 20
+    },
+    {
+      "ea": "0xe980",
+      "name": "_objc_msgSend$activationState",
+      "size": 20
+    },
+    {
+      "ea": "0xe9a0",
+      "name": "_objc_msgSend$addAction:forControlEvents:",
+      "size": 20
+    },
+    {
+      "ea": "0xe9c0",
+      "name": "_objc_msgSend$addArrangedSubview:",
+      "size": 20
+    },
+    {
+      "ea": "0xe9e0",
+      "name": "_objc_msgSend$addGestureRecognizer:",
+      "size": 20
+    },
+    {
+      "ea": "0xea00",
+      "name": "_objc_msgSend$addObject:",
+      "size": 20
+    },
+    {
+      "ea": "0xea20",
+      "name": "_objc_msgSend$addObserverForName:object:queue:usingBlock:",
+      "size": 20
+    },
+    {
+      "ea": "0xea40",
+      "name": "_objc_msgSend$addSubview:",
+      "size": 20
+    },
+    {
+      "ea": "0xea60",
+      "name": "_objc_msgSend$addTarget:action:forControlEvents:",
+      "size": 20
+    },
+    {
+      "ea": "0xea80",
+      "name": "_objc_msgSend$alpha",
+      "size": 20
+    },
+    {
+      "ea": "0xeaa0",
+      "name": "_objc_msgSend$animateAlongsideTransition:completion:",
+      "size": 20
+    },
+    {
+      "ea": "0xeac0",
+      "name": "_objc_msgSend$animateWithDuration:animations:",
+      "size": 20
+    },
+    {
+      "ea": "0xeae0",
+      "name": "_objc_msgSend$animateWithDuration:delay:options:animations:completion:",
+      "size": 20
+    },
+    {
+      "ea": "0xeb00",
+      "name": "_objc_msgSend$animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:",
+      "size": 20
+    },
+    {
+      "ea": "0xeb20",
+      "name": "_objc_msgSend$arrangedSubviews",
+      "size": 20
+    },
+    {
+      "ea": "0xeb40",
+      "name": "_objc_msgSend$array",
+      "size": 20
+    },
+    {
+      "ea": "0xeb60",
+      "name": "_objc_msgSend$arrayWithArray:",
+      "size": 20
+    },
+    {
+      "ea": "0xeb80",
+      "name": "_objc_msgSend$arrayWithObjects:count:",
+      "size": 20
+    },
+    {
+      "ea": "0xeba0",
+      "name": "_objc_msgSend$beadView",
+      "size": 20
+    },
+    {
+      "ea": "0xebc0",
+      "name": "_objc_msgSend$blackColor",
+      "size": 20
+    },
+    {
+      "ea": "0xebe0",
+      "name": "_objc_msgSend$boolForKey:",
+      "size": 20
+    },
+    {
+      "ea": "0xec00",
+      "name": "_objc_msgSend$boolValue",
+      "size": 20
+    },
+    {
+      "ea": "0xec20",
+      "name": "_objc_msgSend$bottomAnchor",
+      "size": 20
+    },
+    {
+      "ea": "0xec40",
+      "name": "_objc_msgSend$bounds",
+      "size": 20
+    },
+    {
+      "ea": "0xec60",
+      "name": "_objc_msgSend$bundleIdentifier",
+      "size": 20
+    },
+    {
+      "ea": "0xec80",
+      "name": "_objc_msgSend$bundlePath",
+      "size": 20
+    },
+    {
+      "ea": "0xeca0",
+      "name": "_objc_msgSend$buttonWithType:",
+      "size": 20
+    },
+    {
+      "ea": "0xecc0",
+      "name": "_objc_msgSend$center",
+      "size": 20
+    },
+    {
+      "ea": "0xece0",
+      "name": "_objc_msgSend$centerXAnchor",
+      "size": 20
+    },
+    {
+      "ea": "0xed00",
+      "name": "_objc_msgSend$centerYAnchor",
+      "size": 20
+    },
+    {
+      "ea": "0xed20",
+      "name": "_objc_msgSend$clearColor",
+      "size": 20
+    },
+    {
+      "ea": "0xed40",
+      "name": "_objc_msgSend$clearLaunchSelectionFromHost",
+      "size": 20
+    },
+    {
+      "ea": "0xed60",
+      "name": "_objc_msgSend$colorWithAlphaComponent:",
+      "size": 20
+    },
+    {
+      "ea": "0xed80",
+      "name": "_objc_msgSend$colorWithWhite:alpha:",
+      "size": 20
+    },
+    {
+      "ea": "0xeda0",
+      "name": "_objc_msgSend$configurationWithPointSize:weight:",
+      "size": 20
+    },
+    {
+      "ea": "0xedc0",
+      "name": "_objc_msgSend$configureWithAppName:icon:status:",
+      "size": 20
+    },
+    {
+      "ea": "0xede0",
+      "name": "_objc_msgSend$connectedScenes",
+      "size": 20
+    },
+    {
+      "ea": "0xee00",
+      "name": "_objc_msgSend$constraintEqualToAnchor:",
+      "size": 20
+    },
+    {
+      "ea": "0xee20",
+      "name": "_objc_msgSend$constraintEqualToAnchor:constant:",
+      "size": 20
+    },
+    {
+      "ea": "0xee40",
+      "name": "_objc_msgSend$constraintEqualToConstant:",
+      "size": 20
+    },
+    {
+      "ea": "0xee60",
+      "name": "_objc_msgSend$constraintGreaterThanOrEqualToConstant:",
+      "size": 20
+    },
+    {
+      "ea": "0xee80",
+      "name": "_objc_msgSend$constraintLessThanOrEqualToAnchor:constant:",
+      "size": 20
+    },
+    {
+      "ea": "0xeea0",
+      "name": "_objc_msgSend$containsObject:",
+      "size": 20
+    },
+    {
+      "ea": "0xeec0",
+      "name": "_objc_msgSend$contentView",
+      "size": 20
+    },
+    {
+      "ea": "0xeee0",
+      "name": "_objc_msgSend$contentsOfDirectoryAtPath:error:",
+      "size": 20
+    },
+    {
+      "ea": "0xef00",
+      "name": "_objc_msgSend$convertPoint:fromView:",
+      "size": 20
+    },
+    {
+      "ea": "0xef20",
+      "name": "_objc_msgSend$copy",
+      "size": 20
+    },
+    {
+      "ea": "0xef40",
+      "name": "_objc_msgSend$count",
+      "size": 20
+    },
+    {
+      "ea": "0xef60",
+      "name": "_objc_msgSend$countByEnumeratingWithState:objects:count:",
+      "size": 20
+    },
+    {
+      "ea": "0xef80",
+      "name": "_objc_msgSend$createAppRowWithApp:isRunning:",
+      "size": 20
+    },
+    {
+      "ea": "0xefa0",
+      "name": "_objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:",
+      "size": 20
+    },
+    {
+      "ea": "0xefc0",
+      "name": "_objc_msgSend$currentGuestFolderName",
+      "size": 20
+    },
+    {
+      "ea": "0xefe0",
+      "name": "_objc_msgSend$dataUUID",
+      "size": 20
+    },
+    {
+      "ea": "0xf000",
+      "name": "_objc_msgSend$date",
+      "size": 20
+    },
+    {
+      "ea": "0xf020",
+      "name": "_objc_msgSend$defaultCenter",
+      "size": 20
+    },
+    {
+      "ea": "0xf040",
+      "name": "_objc_msgSend$defaultManager",
+      "size": 20
+    },
+    {
+      "ea": "0xf060",
+      "name": "_objc_msgSend$dictionary",
+      "size": 20
+    },
+    {
+      "ea": "0xf080",
+      "name": "_objc_msgSend$dictionaryWithContentsOfFile:",
+      "size": 20
+    },
+    {
+      "ea": "0xf0a0",
+      "name": "_objc_msgSend$dictionaryWithObjects:forKeys:count:",
+      "size": 20
+    },
+    {
+      "ea": "0xf0c0",
+      "name": "_objc_msgSend$dimmingMaskView",
+      "size": 20
+    },
+    {
+      "ea": "0xf0e0",
+      "name": "_objc_msgSend$dispatchReturnHome",
+      "size": 20
+    },
+    {
+      "ea": "0xf100",
+      "name": "_objc_msgSend$dispatchSwitchToApp:dataUUID:",
+      "size": 20
+    },
+    {
+      "ea": "0xf120",
+      "name": "_objc_msgSend$doubleForKey:",
+      "size": 20
+    },
+    {
+      "ea": "0xf140",
+      "name": "_objc_msgSend$drawerView",
+      "size": 20
+    },
+    {
+      "ea": "0xf160",
+      "name": "_objc_msgSend$effectWithStyle:",
+      "size": 20
+    },
+    {
+      "ea": "0xf1a0",
+      "name": "_objc_msgSend$extractAppIconFromAppPath:plist:",
+      "size": 20
+    },
+    {
+      "ea": "0xf1c0",
+      "name": "_objc_msgSend$fallbackReturnHomeWithCompletion:",
+      "size": 20
+    },
+    {
+      "ea": "0xf1e0",
+      "name": "_objc_msgSend$fallbackSwitchToFolder:dataUUID:isJIT:completion:",
+      "size": 20
+    },
+    {
+      "ea": "0xf200",
+      "name": "_objc_msgSend$fileExistsAtPath:",
+      "size": 20
+    },
+    {
+      "ea": "0xf220",
+      "name": "_objc_msgSend$fileExistsAtPath:isDirectory:",
+      "size": 20
+    },
+    {
+      "ea": "0xf240",
+      "name": "_objc_msgSend$fileSystemRepresentation",
+      "size": 20
+    },
+    {
+      "ea": "0xf260",
+      "name": "_objc_msgSend$firstObject",
+      "size": 20
+    },
+    {
+      "ea": "0xf280",
+      "name": "_objc_msgSend$folderName",
+      "size": 20
+    },
+    {
+      "ea": "0xf2a0",
+      "name": "_objc_msgSend$frame",
+      "size": 20
+    },
+    {
+      "ea": "0xf2c0",
+      "name": "_objc_msgSend$guestAppInfo",
+      "size": 20
+    },
+    {
+      "ea": "0xf2e0",
+      "name": "_objc_msgSend$handleAppSelected:",
+      "size": 20
+    },
+    {
+      "ea": "0xf300",
+      "name": "_objc_msgSend$handleBeadPanEnded:",
+      "size": 20
+    },
+    {
+      "ea": "0xf320",
+      "name": "_objc_msgSend$hasSuffix:",
+      "size": 20
+    },
+    {
+      "ea": "0xf340",
+      "name": "_objc_msgSend$heightAnchor",
+      "size": 20
+    },
+    {
+      "ea": "0xf360",
+      "name": "_objc_msgSend$hitTest:withEvent:",
+      "size": 20
+    },
+    {
+      "ea": "0xf380",
+      "name": "_objc_msgSend$hostBundleIdentifier",
+      "size": 20
+    },
+    {
+      "ea": "0xf3a0",
+      "name": "_objc_msgSend$icon",
+      "size": 20
+    },
+    {
+      "ea": "0xf3c0",
+      "name": "_objc_msgSend$imageWithContentsOfFile:",
+      "size": 20
+    },
+    {
+      "ea": "0xf3e0",
+      "name": "_objc_msgSend$impactOccurred",
+      "size": 20
+    },
+    {
+      "ea": "0xf400",
+      "name": "_objc_msgSend$initWithActivityIndicatorStyle:",
+      "size": 20
+    },
+    {
+      "ea": "0xf420",
+      "name": "_objc_msgSend$initWithEffect:",
+      "size": 20
+    },
+    {
+      "ea": "0xf440",
+      "name": "_objc_msgSend$initWithFrame:",
+      "size": 20
+    },
+    {
+      "ea": "0xf460",
+      "name": "_objc_msgSend$initWithImage:",
+      "size": 20
+    },
+    {
+      "ea": "0xf480",
+      "name": "_objc_msgSend$initWithName:folderName:bundleId:version:dataUUID:appPath:icon:isJITEnabled:",
+      "size": 20
+    },
+    {
+      "ea": "0xf4a0",
+      "name": "_objc_msgSend$initWithStyle:",
+      "size": 20
+    },
+    {
+      "ea": "0xf4c0",
+      "name": "_objc_msgSend$initWithSuiteName:",
+      "size": 20
+    },
+    {
+      "ea": "0xf4e0",
+      "name": "_objc_msgSend$initWithTarget:action:",
+      "size": 20
+    },
+    {
+      "ea": "0xf500",
+      "name": "_objc_msgSend$initWithWindowScene:",
+      "size": 20
+    },
+    {
+      "ea": "0xf520",
+      "name": "_objc_msgSend$invalidate",
+      "size": 20
+    },
+    {
+      "ea": "0xf540",
+      "name": "_objc_msgSend$isContainerGuestRunning",
+      "size": 20
+    },
+    {
+      "ea": "0xf560",
+      "name": "_objc_msgSend$isDrawerOpen",
+      "size": 20
+    },
+    {
+      "ea": "0xf580",
+      "name": "_objc_msgSend$isEqualToString:",
+      "size": 20
+    },
+    {
+      "ea": "0xf5a0",
+      "name": "_objc_msgSend$isJITEnabled",
+      "size": 20
+    },
+    {
+      "ea": "0xf5c0",
+      "name": "_objc_msgSend$isSetup",
+      "size": 20
+    },
+    {
+      "ea": "0xf5e0",
+      "name": "_objc_msgSend$lastObject",
+      "size": 20
+    },
+    {
+      "ea": "0xf600",
+      "name": "_objc_msgSend$lastPathComponent",
+      "size": 20
+    },
+    {
+      "ea": "0xf620",
+      "name": "_objc_msgSend$layer",
+      "size": 20
+    },
+    {
+      "ea": "0xf640",
+      "name": "_objc_msgSend$lcMainBundle",
+      "size": 20
+    },
+    {
+      "ea": "0xf660",
+      "name": "_objc_msgSend$leadingAnchor",
+      "size": 20
+    },
+    {
+      "ea": "0xf680",
+      "name": "_objc_msgSend$length",
+      "size": 20
+    },
+    {
+      "ea": "0xf6a0",
+      "name": "_objc_msgSend$loadSavedBeadPosition",
+      "size": 20
+    },
+    {
+      "ea": "0xf6c0",
+      "name": "_objc_msgSend$localizedStandardCompare:",
+      "size": 20
+    },
+    {
+      "ea": "0xf6e0",
+      "name": "_objc_msgSend$mainBundle",
+      "size": 20
+    },
+    {
+      "ea": "0xf700",
+      "name": "_objc_msgSend$mainQueue",
+      "size": 20
+    },
+    {
+      "ea": "0xf720",
+      "name": "_objc_msgSend$mainScreen",
+      "size": 20
+    },
+    {
+      "ea": "0xf740",
+      "name": "_objc_msgSend$methodForSelector:",
+      "size": 20
+    },
+    {
+      "ea": "0xf760",
+      "name": "_objc_msgSend$name",
+      "size": 20
+    },
+    {
+      "ea": "0xf780",
+      "name": "_objc_msgSend$numberWithBool:",
+      "size": 20
+    },
+    {
+      "ea": "0xf7a0",
+      "name": "_objc_msgSend$numberWithDouble:",
+      "size": 20
+    },
+    {
+      "ea": "0xf7c0",
+      "name": "_objc_msgSend$numberWithInt:",
+      "size": 20
+    },
+    {
+      "ea": "0xf7e0",
+      "name": "_objc_msgSend$objectForKey:",
+      "size": 20
+    },
+    {
+      "ea": "0xf800",
+      "name": "_objc_msgSend$objectForKeyedSubscript:",
+      "size": 20
+    },
+    {
+      "ea": "0xf820",
+      "name": "_objc_msgSend$onClose",
+      "size": 20
+    },
+    {
+      "ea": "0xf840",
+      "name": "_objc_msgSend$onPanEnded",
+      "size": 20
+    },
+    {
+      "ea": "0xf860",
+      "name": "_objc_msgSend$onPanMoved",
+      "size": 20
+    },
+    {
+      "ea": "0xf880",
+      "name": "_objc_msgSend$onReturnHome",
+      "size": 20
+    },
+    {
+      "ea": "0xf8a0",
+      "name": "_objc_msgSend$onSelectApp",
+      "size": 20
+    },
+    {
+      "ea": "0xf8c0",
+      "name": "_objc_msgSend$onTap",
+      "size": 20
+    },
+    {
+      "ea": "0xf8e0",
+      "name": "_objc_msgSend$onUserInteraction",
+      "size": 20
+    },
+    {
+      "ea": "0xf900",
+      "name": "_objc_msgSend$openURL:options:completionHandler:",
+      "size": 20
+    },
+    {
+      "ea": "0xf920",
+      "name": "_objc_msgSend$overlayController",
+      "size": 20
+    },
+    {
+      "ea": "0xf940",
+      "name": "_objc_msgSend$overlayWindow",
+      "size": 20
+    },
+    {
+      "ea": "0xf960",
+      "name": "_objc_msgSend$performSelector:",
+      "size": 20
+    },
+    {
+      "ea": "0xf980",
+      "name": "_objc_msgSend$performSelector:withObject:",
+      "size": 20
+    },
+    {
+      "ea": "0xf9a0",
+      "name": "_objc_msgSend$performSetup",
+      "size": 20
+    },
+    {
+      "ea": "0xf9e0",
+      "name": "_objc_msgSend$presentTransitionAndSwitchToApp:completion:",
+      "size": 20
+    },
+    {
+      "ea": "0xfa00",
+      "name": "_objc_msgSend$rangeOfString:",
+      "size": 20
+    },
+    {
+      "ea": "0xfa20",
+      "name": "_objc_msgSend$realHostDocumentsDirectory",
+      "size": 20
+    },
+    {
+      "ea": "0xfa40",
+      "name": "_objc_msgSend$refreshAppList",
+      "size": 20
+    },
+    {
+      "ea": "0xfa60",
+      "name": "_objc_msgSend$reloadWithApps:runningFolder:",
+      "size": 20
+    },
+    {
+      "ea": "0xfa80",
+      "name": "_objc_msgSend$removeArrangedSubview:",
+      "size": 20
+    },
+    {
+      "ea": "0xfaa0",
+      "name": "_objc_msgSend$removeFromSuperview",
+      "size": 20
+    },
+    {
+      "ea": "0xfac0",
+      "name": "_objc_msgSend$removeItemAtPath:error:",
+      "size": 20
+    },
+    {
+      "ea": "0xfae0",
+      "name": "_objc_msgSend$removeObjectForKey:",
+      "size": 20
+    },
+    {
+      "ea": "0xfb00",
+      "name": "_objc_msgSend$resetInactivityTimer",
+      "size": 20
+    },
+    {
+      "ea": "0xfb20",
+      "name": "_objc_msgSend$resolveHitTestAtPoint:inWindow:withEvent:",
+      "size": 20
+    },
+    {
+      "ea": "0xfb40",
+      "name": "_objc_msgSend$safeAreaInsets",
+      "size": 20
+    },
+    {
+      "ea": "0xfb60",
+      "name": "_objc_msgSend$safeAreaLayoutGuide",
+      "size": 20
+    },
+    {
+      "ea": "0xfb80",
+      "name": "_objc_msgSend$saveBeadPosition",
+      "size": 20
+    },
+    {
+      "ea": "0xfba0",
+      "name": "_objc_msgSend$scanInstalledApps",
+      "size": 20
+    },
+    {
+      "ea": "0xfbc0",
+      "name": "_objc_msgSend$scheduledTimerWithTimeInterval:repeats:block:",
+      "size": 20
+    },
+    {
+      "ea": "0xfbe0",
+      "name": "_objc_msgSend$setAccessibilityIdentifier:",
+      "size": 20
+    },
+    {
+      "ea": "0xfc00",
+      "name": "_objc_msgSend$setAlignment:",
+      "size": 20
+    },
+    {
+      "ea": "0xfc20",
+      "name": "_objc_msgSend$setAlpha:",
+      "size": 20
+    },
+    {
+      "ea": "0xfc40",
+      "name": "_objc_msgSend$setAutoresizingMask:",
+      "size": 20
+    },
+    {
+      "ea": "0xfc60",
+      "name": "_objc_msgSend$setAxis:",
+      "size": 20
+    },
+    {
+      "ea": "0xfc80",
+      "name": "_objc_msgSend$setBackgroundColor:",
+      "size": 20
+    },
+    {
+      "ea": "0xfca0",
+      "name": "_objc_msgSend$setBeadView:",
+      "size": 20
+    },
+    {
+      "ea": "0xfcc0",
+      "name": "_objc_msgSend$setBool:forKey:",
+      "size": 20
+    },
+    {
+      "ea": "0xfce0",
+      "name": "_objc_msgSend$setBorderColor:",
+      "size": 20
+    },
+    {
+      "ea": "0xfd00",
+      "name": "_objc_msgSend$setBorderWidth:",
+      "size": 20
+    },
+    {
+      "ea": "0xfd20",
+      "name": "_objc_msgSend$setCenter:",
+      "size": 20
+    },
+    {
+      "ea": "0xfd40",
+      "name": "_objc_msgSend$setClipsToBounds:",
+      "size": 20
+    },
+    {
+      "ea": "0xfd60",
+      "name": "_objc_msgSend$setColor:",
+      "size": 20
+    },
+    {
+      "ea": "0xfd80",
+      "name": "_objc_msgSend$setContentMode:",
+      "size": 20
+    },
+    {
+      "ea": "0xfda0",
+      "name": "_objc_msgSend$setCornerCurve:",
+      "size": 20
+    },
+    {
+      "ea": "0xfdc0",
+      "name": "_objc_msgSend$setCornerRadius:",
+      "size": 20
+    },
+    {
+      "ea": "0xfde0",
+      "name": "_objc_msgSend$setDimmingMaskView:",
+      "size": 20
+    },
+    {
+      "ea": "0xfe00",
+      "name": "_objc_msgSend$setDistribution:",
+      "size": 20
+    },
+    {
+      "ea": "0xfe20",
+      "name": "_objc_msgSend$setDouble:forKey:",
+      "size": 20
+    },
+    {
+      "ea": "0xfe40",
+      "name": "_objc_msgSend$setDrawerOpen:animated:",
+      "size": 20
+    },
+    {
+      "ea": "0xfe60",
+      "name": "_objc_msgSend$setDrawerView:",
+      "size": 20
+    },
+    {
+      "ea": "0xfe80",
+      "name": "_objc_msgSend$setFont:",
+      "size": 20
+    },
+    {
+      "ea": "0xfea0",
+      "name": "_objc_msgSend$setFrame:",
+      "size": 20
+    },
+    {
+      "ea": "0xfec0",
+      "name": "_objc_msgSend$setHidden:",
+      "size": 20
+    },
+    {
+      "ea": "0xfee0",
+      "name": "_objc_msgSend$setHidesWhenStopped:",
+      "size": 20
+    },
+    {
+      "ea": "0xff00",
+      "name": "_objc_msgSend$setImage:",
+      "size": 20
+    },
+    {
+      "ea": "0xff20",
+      "name": "_objc_msgSend$setImage:forState:",
+      "size": 20
+    },
+    {
+      "ea": "0xff40",
+      "name": "_objc_msgSend$setIsSetup:",
+      "size": 20
+    },
+    {
+      "ea": "0xff60",
+      "name": "_objc_msgSend$setNumberOfLines:",
+      "size": 20
+    },
+    {
+      "ea": "0xff80",
+      "name": "_objc_msgSend$setObject:forKey:",
+      "size": 20
+    },
+    {
+      "ea": "0xffa0",
+      "name": "_objc_msgSend$setObject:forKeyedSubscript:",
+      "size": 20
+    },
+    {
+      "ea": "0xffc0",
+      "name": "_objc_msgSend$setOnClose:",
+      "size": 20
+    },
+    {
+      "ea": "0xffe0",
+      "name": "_objc_msgSend$setOnPanEnded:",
+      "size": 20
+    },
+    {
+      "ea": "0x10000",
+      "name": "_objc_msgSend$setOnPanMoved:",
+      "size": 20
+    },
+    {
+      "ea": "0x10020",
+      "name": "_objc_msgSend$setOnReturnHome:",
+      "size": 20
+    },
+    {
+      "ea": "0x10040",
+      "name": "_objc_msgSend$setOnSelectApp:",
+      "size": 20
+    },
+    {
+      "ea": "0x10060",
+      "name": "_objc_msgSend$setOnTap:",
+      "size": 20
+    },
+    {
+      "ea": "0x10080",
+      "name": "_objc_msgSend$setOnUserInteraction:",
+      "size": 20
+    },
+    {
+      "ea": "0x100a0",
+      "name": "_objc_msgSend$setOverlayController:",
+      "size": 20
+    },
+    {
+      "ea": "0x100c0",
+      "name": "_objc_msgSend$setOverlayWindow:",
+      "size": 20
+    },
+    {
+      "ea": "0x100e0",
+      "name": "_objc_msgSend$setRootViewController:",
+      "size": 20
+    },
+    {
+      "ea": "0x10100",
+      "name": "_objc_msgSend$setShadowColor:",
+      "size": 20
+    },
+    {
+      "ea": "0x10120",
+      "name": "_objc_msgSend$setShadowOffset:",
+      "size": 20
+    },
+    {
+      "ea": "0x10140",
+      "name": "_objc_msgSend$setShadowOpacity:",
+      "size": 20
+    },
+    {
+      "ea": "0x10160",
+      "name": "_objc_msgSend$setShadowRadius:",
+      "size": 20
+    },
+    {
+      "ea": "0x10180",
+      "name": "_objc_msgSend$setShowsVerticalScrollIndicator:",
+      "size": 20
+    },
+    {
+      "ea": "0x101a0",
+      "name": "_objc_msgSend$setSpacing:",
+      "size": 20
+    },
+    {
+      "ea": "0x101c0",
+      "name": "_objc_msgSend$setText:",
+      "size": 20
+    },
+    {
+      "ea": "0x101e0",
+      "name": "_objc_msgSend$setTextAlignment:",
+      "size": 20
+    },
+    {
+      "ea": "0x10200",
+      "name": "_objc_msgSend$setTextColor:",
+      "size": 20
+    },
+    {
+      "ea": "0x10220",
+      "name": "_objc_msgSend$setTintColor:",
+      "size": 20
+    },
+    {
+      "ea": "0x10240",
+      "name": "_objc_msgSend$setTransform:",
+      "size": 20
+    },
+    {
+      "ea": "0x10260",
+      "name": "_objc_msgSend$setTransitionOverlayView:",
+      "size": 20
+    },
+    {
+      "ea": "0x10280",
+      "name": "_objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:",
+      "size": 20
+    },
+    {
+      "ea": "0x102a0",
+      "name": "_objc_msgSend$setUserInteractionEnabled:",
+      "size": 20
+    },
+    {
+      "ea": "0x102c0",
+      "name": "_objc_msgSend$setWindowLevel:",
+      "size": 20
+    },
+    {
+      "ea": "0x102e0",
+      "name": "_objc_msgSend$setWindowScene:",
+      "size": 20
+    },
+    {
+      "ea": "0x10300",
+      "name": "_objc_msgSend$setupComponents",
+      "size": 20
+    },
+    {
+      "ea": "0x10320",
+      "name": "_objc_msgSend$setupIfNeeded",
+      "size": 20
+    },
+    {
+      "ea": "0x10340",
+      "name": "_objc_msgSend$setupReturnHomeCard",
+      "size": 20
+    },
+    {
+      "ea": "0x10360",
+      "name": "_objc_msgSend$setupUI",
+      "size": 20
+    },
+    {
+      "ea": "0x10380",
+      "name": "_objc_msgSend$sharedApplication",
+      "size": 20
+    },
+    {
+      "ea": "0x103a0",
+      "name": "_objc_msgSend$sharedManager",
+      "size": 20
+    },
+    {
+      "ea": "0x103c0",
+      "name": "_objc_msgSend$showWithCompletion:",
+      "size": 20
+    },
+    {
+      "ea": "0x103e0",
+      "name": "_objc_msgSend$sortUsingComparator:",
+      "size": 20
+    },
+    {
+      "ea": "0x10400",
+      "name": "_objc_msgSend$standardUserDefaults",
+      "size": 20
+    },
+    {
+      "ea": "0x10420",
+      "name": "_objc_msgSend$startAnimating",
+      "size": 20
+    },
+    {
+      "ea": "0x10440",
+      "name": "_objc_msgSend$state",
+      "size": 20
+    },
+    {
+      "ea": "0x10460",
+      "name": "_objc_msgSend$stringByAddingPercentEncodingWithAllowedCharacters:",
+      "size": 20
+    },
+    {
+      "ea": "0x10480",
+      "name": "_objc_msgSend$stringByAppendingPathComponent:",
+      "size": 20
+    },
+    {
+      "ea": "0x104a0",
+      "name": "_objc_msgSend$stringByAppendingString:",
+      "size": 20
+    },
+    {
+      "ea": "0x104c0",
+      "name": "_objc_msgSend$stringByReplacingOccurrencesOfString:withString:",
+      "size": 20
+    },
+    {
+      "ea": "0x104e0",
+      "name": "_objc_msgSend$stringForKey:",
+      "size": 20
+    },
+    {
+      "ea": "0x10500",
+      "name": "_objc_msgSend$stringWithFormat:",
+      "size": 20
+    },
+    {
+      "ea": "0x10520",
+      "name": "_objc_msgSend$stringWithUTF8String:",
+      "size": 20
+    },
+    {
+      "ea": "0x10540",
+      "name": "_objc_msgSend$substringToIndex:",
+      "size": 20
+    },
+    {
+      "ea": "0x10560",
+      "name": "_objc_msgSend$superview",
+      "size": 20
+    },
+    {
+      "ea": "0x10580",
+      "name": "_objc_msgSend$syncLaunchSelectionToHost:dataUUID:requestID:isJIT:",
+      "size": 20
+    },
+    {
+      "ea": "0x105a0",
+      "name": "_objc_msgSend$synchronize",
+      "size": 20
+    },
+    {
+      "ea": "0x105c0",
+      "name": "_objc_msgSend$systemCyanColor",
+      "size": 20
+    },
+    {
+      "ea": "0x105e0",
+      "name": "_objc_msgSend$systemFontOfSize:weight:",
+      "size": 20
+    },
+    {
+      "ea": "0x10600",
+      "name": "_objc_msgSend$systemGreenColor",
+      "size": 20
+    },
+    {
+      "ea": "0x10620",
+      "name": "_objc_msgSend$systemImageNamed:",
+      "size": 20
+    },
+    {
+      "ea": "0x10640",
+      "name": "_objc_msgSend$systemImageNamed:withConfiguration:",
+      "size": 20
+    },
+    {
+      "ea": "0x10660",
+      "name": "_objc_msgSend$timeIntervalSince1970",
+      "size": 20
+    },
+    {
+      "ea": "0x10680",
+      "name": "_objc_msgSend$topAnchor",
+      "size": 20
+    },
+    {
+      "ea": "0x106a0",
+      "name": "_objc_msgSend$trailingAnchor",
+      "size": 20
+    },
+    {
+      "ea": "0x106c0",
+      "name": "_objc_msgSend$transitionOverlayView",
+      "size": 20
+    },
+    {
+      "ea": "0x106e0",
+      "name": "_objc_msgSend$transitionWithView:duration:options:animations:completion:",
+      "size": 20
+    },
+    {
+      "ea": "0x10700",
+      "name": "_objc_msgSend$translationInView:",
+      "size": 20
+    },
+    {
+      "ea": "0x10720",
+      "name": "_objc_msgSend$updateLayoutForCanvasSize:",
+      "size": 20
+    },
+    {
+      "ea": "0x10740",
+      "name": "_objc_msgSend$updateStatus:",
+      "size": 20
+    },
+    {
+      "ea": "0x10760",
+      "name": "_objc_msgSend$version",
+      "size": 20
+    },
+    {
+      "ea": "0x10780",
+      "name": "_objc_msgSend$view",
+      "size": 20
+    },
+    {
+      "ea": "0x107a0",
+      "name": "_objc_msgSend$whiteColor",
+      "size": 20
+    },
+    {
+      "ea": "0x107c0",
+      "name": "_objc_msgSend$widthAnchor",
+      "size": 20
+    },
+    {
+      "ea": "0x107e0",
+      "name": "_objc_msgSend$windowScene",
+      "size": 20
+    },
+    {
+      "ea": "0x10800",
+      "name": "_objc_msgSend$writeToFile:atomically:",
+      "size": 20
+    }
+  ],
+  "failures": []
+}
